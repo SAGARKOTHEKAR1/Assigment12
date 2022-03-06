@@ -1,0 +1,57 @@
+.header{
+    background-color: blueviolet;
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+     
+}
+.menu{
+    background-color: chartreuse;
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+}
+section{
+    line-height: 200px;
+    width: 100%;
+
+}
+.content1{
+    background-color: grey;
+    line-height: 200px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.main{
+    background-color: orangered;
+    line-height: 200px;
+    width: 58.3%;
+    text-align: center;
+    overflow: auto;
+    float: left;
+
+}
+.content2{
+    background-color: gray;
+    line-height: 200px;
+    width: 20%;
+    float: right;
+    text-align: center;
+    overflow: auto;
+    margin-right: 0%;
+    
+}
+.footer{
+    background-color: purple;
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+
+}
+
+*{
+    margin: 5px;
+    padding: 0%;
+}

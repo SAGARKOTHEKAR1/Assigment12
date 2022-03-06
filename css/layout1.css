@@ -1,0 +1,36 @@
+
+.header{
+    background-color: blueviolet;
+    line-height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sidebar{
+    background-color: coral;
+    line-height: 400px;
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-bottom: 10px;
+
+}
+.section{
+    background-color: burlywood;
+    line-height: 400px;
+    width: 70%;
+    text-align: center;
+    float: right;
+    margin-bottom: 10px;
+
+}
+.footer{
+    background-color: darkgoldenrod;
+    line-height: 200px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+}
+.{
+    margin: 0%;
+    padding: 0%;
+}
