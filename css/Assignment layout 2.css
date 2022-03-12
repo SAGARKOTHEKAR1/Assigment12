@@ -1,0 +1,105 @@
+
+.main{
+    background-color: red;
+    width: 1200px;
+    height: 1000px;
+    text-align: center;
+    overflow: auto;
+    float: none;
+}
+.header{
+    background-color: aqua;
+    width: 1200px;
+    line-height:150px;;
+    text-align:center;
+    float: none;
+    overflow: auto;
+    
+    }
+.container{
+    background-color: blueviolet;
+    width: 1200px;
+    line-height: 800px;
+    text-align: center;
+    overflow: auto;
+    float: none;
+}
+.footer{
+    background-color: brown;
+    width: 1200px;
+    line-height: 50px;
+    text-align: center;
+    overflow: auto;
+    float: none;
+}
+.branding{
+    background-color: coral;
+    width: 400px;
+    line-height: 150px;
+    text-align: center;
+    overflow: auto;
+    float: left;
+}
+.socialmedia{
+    background-color: crimson;
+    width: 800px;
+    line-height: 100px;
+    text-align: center;
+    overflow: auto;
+    float: right;
+}
+.menu{
+    background-color: darkblue;
+    width: 800px;
+    line-height: 50px;
+    text-align: center;
+    overflow: auto;
+    float: right;
+}
+.gallary{
+    background-color: orangered;
+    width: 1200px;
+    line-height: 400px;
+    text-align: center;
+    overflow: auto;
+    float: none;}
+    .courses{
+
+        background-color: darkgreen;
+        width: 1200px;
+        line-height: 400px;
+        overflow: auto;
+        float: none;
+    }
+.bootcamp{
+    background-color:yellow;
+    width: 300px;
+    line-height: 400px;
+    overflow: auto;
+    float: left;
+    text-align: center;
+}
+.cloud{
+    background-color:purple;
+    width: 300px;
+    line-height: 400px;
+    overflow: auto;
+    float: right;
+    text-align: center;
+}
+.machine{
+    background-color:cyan;
+    width: 300px;
+    line-height: 400px;
+    overflow: auto;
+    float: right;
+    text-align: center;
+}
+.system{
+    background-color:goldenrod;
+    width: 300px;
+    line-height: 400px;
+    overflow: auto;
+    float: right;
+    text-align: center;
+}
