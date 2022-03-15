@@ -10,16 +10,16 @@
 .header{
     background-color: aqua;
     width: 1200px;
-    line-height:150px;;
+    height:150px;;
     text-align:center;
     float: none;
-    overflow: auto;
+    
     
     }
 .container{
     background-color: blueviolet;
     width: 1200px;
-    line-height: 800px;
+    height: 800px;
     text-align: center;
     overflow: auto;
     float: none;
@@ -27,7 +27,7 @@
 .footer{
     background-color: brown;
     width: 1200px;
-    line-height: 50px;
+    height: 50px;
     text-align: center;
     overflow: auto;
     float: none;
@@ -35,71 +35,114 @@
 .branding{
     background-color: green;
     width: 400px;
-    line-height: 150px;
+    height: 150px;
     text-align: center;
-    overflow: auto;
+
     float: left;
 }
+.branding img{
+    height: 150px;
+    width: 400px;
+}
+
 .socialmedia{
     background-color: crimson;
     width: 800px;
-    line-height: 100px;
+    height: 100px;
     text-align: center;
     overflow: auto;
     float: right;
+}
+.socialmedia img{
+    width: 800px;
+    height: 100px;
 }
 .menu{
     background-color: darkblue;
     width: 800px;
     line-height: 50px;
+     float: left;
+    
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    display: block;
+    background-color: brown;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    height: 40px;
+    width: 180px;
     text-align: center;
-    overflow: auto;
-    float: right;
+    line-height: 40px;
+
 }
 .gallary{
     background-color: orangered;
     width: 1200px;
-    line-height: 400px;
+    height: 400px;
     text-align: center;
     overflow: auto;
     float: none;}
+    .gallary img{
+        width: 1200px;
+        height:400px;
+    }
     .courses{
 
         background-color: darkgreen;
         width: 1200px;
-        line-height: 400px;
+        height: 400px;
         overflow: auto;
         float: none;
     }
 .bootcamp{
     background-color:yellow;
     width: 300px;
-    line-height: 400px;
+    height: 400px;
     overflow: auto;
     float: left;
     text-align: center;
 }
+.bootcamp img{
+    width: 300px;
+    height: 400px;
+}
 .cloud{
     background-color:purple;
     width: 300px;
-    line-height: 400px;
+    height: 400px;
     overflow: auto;
     float: right;
     text-align: center;
+}
+.cloud img{
+    width: 300px;
+    height: 400px;
 }
 .machine{
     background-color:cyan;
     width: 300px;
-    line-height: 400px;
+    height: 400px;
     overflow: auto;
     float: right;
     text-align: center;
 }
+.machine img{
+    width: 300px;
+    height: 400px;
+}
 .system{
     background-color:goldenrod;
     width: 300px;
-    line-height: 400px;
+    height: 400px;
     overflow: auto;
     float: right;
     text-align: center;
+}
+.system img{
+    width: 300px;
+    height: 400px;
 }
