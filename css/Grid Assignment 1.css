@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    width: 70%;
+    height: 90vh;
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    font-size: large;
+    grid-template-areas: 
+    "header header header header"
+    "menu main main ad1"
+    "menu main main ad1"
+
+    "ad2 main main ad1"
+    "footer footer footer footer";
+
+}
+.grid-item{
+    border: 1px red;
+}
+.item1{
+    grid-area: header;
+    background-color: aqua;
+    
+    
+}
+.item2{
+    grid-area: menu;
+    background-color: blue;
+  
+}
+.item3{
+    grid-area: main;
+    background-color: blueviolet;
+    
+   
+}
+.item4{
+    grid-area: ad1;
+    background-color: brown;
+}
+.item5{
+    grid-area: ad2;
+    background-color: chartreuse;
+    
+}
+.item6{
+    grid-area: footer;
+    background-color: crimson;
+    
+    
+    
+}
